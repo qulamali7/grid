@@ -1,0 +1,111 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+    position: relative;
+}
+
+/* NAV start */
+.nav {
+    padding: 30px;
+    width: 15%;
+    height: 100vh;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: fixed;
+    left: 8%;
+}
+
+.nav h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.nav-img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 3px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.nav-list li i {
+    font-size: 20px;
+}
+
+.nav-list li a {
+    padding-left: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-list li:hover a,
+.nav-list li:hover i {
+    color: #009688;
+}
+
+.nav-icon i {
+    font-size: 20px;
+    padding: 5px;
+}
+
+/* NAV end */
+
+.portfolio {
+    width: 68%;
+    position: absolute;
+    min-height: 1vh;
+    right: 8%;
+}
+
+.portfolio-title {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-bottom: 5px solid #cccc;
+}
+
+.title-content,
+.title-list {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.title-content {
+    gap: 20px;
+}
+
+.title-list li a {
+    color: black;
+}
+
+.black {
+    background-color: black;
+}
+
+.title-list li {
+    height: 35px;
+    background-color: #ffff;
+    color: black;
+    padding: 5px 20px;
+    transition: 0.5s all ease;
+}
+
+
+
+.title-list li:hover {
+    background-color: black;
+    color: #ffff;
+}
+
+.title-list li:hover a {
+    color: #ffff;
+}
